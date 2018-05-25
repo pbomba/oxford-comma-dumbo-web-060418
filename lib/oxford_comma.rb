@@ -7,8 +7,8 @@ def oxford_comma(array)
     last = array.pop
     #last.join
     newString = array.join(", ")
-    newString << ", and "
-    newString << last
+    newString << ", and #{last}"
+   ## newString << last
     return newString
   end
 end
